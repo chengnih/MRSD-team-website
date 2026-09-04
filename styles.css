@@ -37,7 +37,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .overview-header { max-width: 980px; margin-bottom: 32px; }
 .eyebrow { margin: 0 0 12px; color: var(--burgundy); font-size: .69rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
 h1 { margin: 0; max-width: 920px; font-size: clamp(2.25rem, 3.2vw, 2.5rem); letter-spacing: -.03em; line-height: 1.18; }
-.overview-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: stretch; }
+.overview-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; align-items: stretch; }
 .overview-card { min-width: 0; padding: 26px; background: var(--white); border: 1px solid var(--line); border-radius: 8px; }
 .overview-card h2, .profile-field h4, .project-interest h4 { margin: 0; color: var(--muted); font-size: .69rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
 .topic-chips, .strengths { display: flex; flex-wrap: wrap; gap: 8px; margin: 15px 0 0; padding: 0; list-style: none; }
